@@ -124,9 +124,9 @@ Partial Class Form1
         'MySqlData
         '
         Me.MySqlData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.MySqlData.Location = New System.Drawing.Point(209, 323)
+        Me.MySqlData.Location = New System.Drawing.Point(116, 323)
         Me.MySqlData.Name = "MySqlData"
-        Me.MySqlData.Size = New System.Drawing.Size(308, 127)
+        Me.MySqlData.Size = New System.Drawing.Size(541, 127)
         Me.MySqlData.TabIndex = 10
         '
         'Form1
