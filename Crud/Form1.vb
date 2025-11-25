@@ -13,6 +13,7 @@ Public Class Form1
                 Dim table As New DataTable()
                 adapter.Fill(table)
                 MySqlData.DataSource = table
+                MySqlData.Columns("id").Visible = False
             End Using
         Catch ex As Exception
             MsgBox(ex.Message)
